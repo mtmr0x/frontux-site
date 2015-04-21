@@ -26,6 +26,9 @@ ga_domain: fronux.com
 ga_tracking_id: UA-47727049-1
 
 # Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
+source:      .
+destination: ./_site
+plugins:     ./_plugins
 
 markdown: kramdown
 permalink: pretty
