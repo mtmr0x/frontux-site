@@ -33,6 +33,7 @@ highlighter: pygments
 
 paginate: 10
 paginate_path: "/page/:num"
+permalink:   /:title/
 
 # SCSS
 
