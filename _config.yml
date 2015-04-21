@@ -2,7 +2,7 @@
 name: "FrontUx"
 
 # Description of your content (will only be used on Google Search)
-description: "Meet'up - Designer end Front-end"
+description: "Meet'up - Designer end Developers"
 
 # Your name. Will show in your footer + sidebar 
 author: "FrontUx team"
@@ -11,14 +11,14 @@ url: "http://frontux.com"
 baseurl: "/"
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words. 
-author-bio: "I'm a dog. I develop things. This is my blog so why don't you close this damn side panel (cursed by most UX Designers but I don't care, I do whatever I want) and start reading my awesome stuff?"
+author-bio: "Meetup para reunir Designers e Developers e discutir assuntos para melhor o flow de trabalho de ambas as áreas"
 
 # Social Accounts (mine, as placeholders)
 
 twitter: frontux
 github: frontux
-dribbble: frontyx
-instagram: fronx
+dribbble: frontux
+instagram: frontux
 
 # Google Analytics (you may want to changes these with yours or even delete :)
 
