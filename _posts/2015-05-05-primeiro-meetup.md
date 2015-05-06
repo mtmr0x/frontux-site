@@ -16,4 +16,4 @@ O tema a ser discutido será **Style Guide**, foram escolhidos dois profissionai
 
 **Local**: iG,  Avenida das Nações Unidas, 11633 - Térreo - Brooklin - CEP: 04795-100, SP. Entrada pela rua Guararapes, n˚ 2064, recepção do iG, veja no [Google Maps](https://goo.gl/maps/RBPTl).
 
-_Obs.: O primeiro meetup será apenas para convidados, pois queremos testar experimentar a estrutura do meetup antes de abrirmos par ao publico, porém todo o conteúdo será disponibilizado aqui no blog._
+_Obs.: O primeiro meetup será apenas para convidados, pois queremos testar e experimentar a estrutura do meetup antes de abrirmos par ao publico, porém todo o conteúdo será disponibilizado aqui no blog._
