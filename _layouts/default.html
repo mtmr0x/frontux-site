@@ -22,26 +22,21 @@
 
     <div class="off-canvas">
       <figure class="avatar">
-        <img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Picture" title="That's me, {{ site.author }}.">
+        <img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Picture" title="{{ site.author }}.">
       </figure>
       <div class="bio">
-          <h1>Hi, I'm {{ site.author }}.</h1>
+          <h1>{{ site.author }}.</h1>
           <p>{{ site.author-bio }}</p>
       </div>
       <nav>
-        <h6>Follow me on</h6>
+        <h6>On</h6>
         <ul>
+          <li><a title="Sobre o {{ site.author }}" href="/sobre">Sobre</a></li>
           {% if site.twitter %}
-          <li><a target="_blank" href="https://twitter.com/{{ site.twitter }}">Twitter</a></li>
+          <li><a target="_blank" title="Nossa Fan Page" href="https://twitter.com/{{ site.twitter }}">Facebook</a></li>
           {% endif %}
           {% if site.github %}
-          <li><a target="_blank" href="https://github.com/{{ site.github }}">Github</a></li>
-          {% endif %}
-          {% if site.dribbble %}
-          <li><a target="_blank" href="https://dribbble.com/{{ site.dribbble }}">Dribbble</a></li>
-          {% endif %}
-          {% if site.instagram %}
-          <li><a target="_blank" href="https://instagram.com/{{ site.instagram }}">Instagram</a></li>
+          <li><a target="_blank" title="Colabore" href="https://github.com/{{ site.github }}">Github</a></li>
           {% endif %}
         </ul>
       </nav>
@@ -52,7 +47,11 @@
 
       <header>
         <div class="h-wrap">
-          <h1 class="title"><a href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}" title="Back to Homepage">{{ site.name }}</a></h1>
+          <h1 class="title">
+            <a href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}" title="Back to Homepage">
+              <img src="{{ site.baseurl }}/assets/img/frontux-orange.jpg" alt="Picture" title="{{ site.author }}.">
+            </a>
+          </h1>
           <a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
         </div>
       </header>
@@ -62,13 +61,13 @@
       </main>
 
       <footer>
-        <small>Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.author }}</small>
+        <small>&copy; {{ site.author }}</small>
       </footer>
 
     </div>
     {% comment %} site-wrapper {% endcomment %}
 
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
     {% comment %} Google Analytics {% endcomment %}
     {% if site.ga_tracking_id and site.ga_domain %}
       <script>
