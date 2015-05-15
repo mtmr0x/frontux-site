@@ -4,7 +4,7 @@
   <id>http://frontux.com</id>
   <link href="http://frontux.com" />
   <link href="http://frontux.com/atom.xml" rel="self" />
-  <updated>2015-05-06T16:00:58+00:00</updated>
+  <updated>2015-05-15T18:35:27+00:00</updated>
   <rights>Copyright 2014, FrontUx</rights>
   <author>
     <name>FrontUx</name>
@@ -13,19 +13,7 @@
     <entry>
       <title>Meetup #1</title>
       <link href="http://frontux.com/primeiro-meetup/" />
-      <summary type="html">&lt;p&gt;Finalmente o primeiro meetup. \o/&lt;/p&gt;
-
-&lt;p&gt;O tema a ser discutido será &lt;strong&gt;Style Guide&lt;/strong&gt;, foram escolhidos dois profissionais da área para iniciar a discussão, &lt;a href=&quot;https://www.facebook.com/gmoura.dev&quot;&gt;Guilherme Moura&lt;/a&gt;, Desenvolvedor Front-end e &lt;a href=&quot;https://www.facebook.com/escopob&quot;&gt;Bárbara Araújo&lt;/a&gt;, Arquiteta de Informação ambos trabalham no portal de notícias super conhecido, o &lt;a href=&quot;http://ig.com.br&quot;&gt;iG&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;horrio-e-local&quot;&gt;Horário e local&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Data&lt;/strong&gt;: 15/05/2015.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Horário&lt;/strong&gt;: 19 horas as 21:30.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Local&lt;/strong&gt;: iG,  Avenida das Nações Unidas, 11633 - Térreo - Brooklin - CEP: 04795-100, SP. Entrada pela rua Guararapes, n˚ 2064, recepção do iG, veja no &lt;a href=&quot;https://goo.gl/maps/RBPTl&quot;&gt;Google Maps&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Obs.: O primeiro meetup será apenas para convidados, pois queremos testar e experimentar a estrutura do meetup antes de abrirmos para o público, porém todo o conteúdo será disponibilizado aqui no blog.&lt;/em&gt;&lt;/p&gt;
+      <summary type="html">&lt;p&gt;Em breve … &lt;/p&gt;
 </summary>
       <id>http://frontux.com/primeiro-meetup/</id>
       <updated>2015-05-05T15:00:00+00:00</updated>
