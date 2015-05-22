@@ -1,104 +1,24 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-      <title>FrontUx - Meet'up - Designers end Developers</title>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <meta http-equiv="content-language" content="en-gb" />
-      <meta name="description" content="Meet'up - Designers end Developers">
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
-      <link rel="stylesheet" type="text/css" href="/css/main.css" />
-      <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
-  </head>
+---
+layout: default
+---
 
-  <body>
-    <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
+<div class="home">
 
-    <div class="off-canvas">
-      <figure class="avatar">
-        <img src="/assets/img/avatar.jpg" alt="Picture" title="FrontUx.">
-      </figure>
-      <div class="bio">
-          <h1>FrontUx.</h1>
-          <p>Meetup para reunir Designers e Developers e discutir assuntos para melhorar o fluxo de trabalho de ambas as áreas</p>
+  <div class="posts">
+    {% for post in paginator.posts %}
+      <div class="post">
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h2 post-title">{{ post.title }}</h3></a>
+        <p class="post-summary">
+          {% if post.summary %}
+            {{ post.summary }}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+        </p>
       </div>
-      <nav>
-        <h6>On</h6>
-        <ul>
-          <li><a title="Sobre o FrontUx" href="/sobre">Sobre</a></li>
-          
-          <li><a target="_blank" title="Nossa Fan Page" href="https://twitter.com/frontux">Facebook</a></li>
-          
-          
-          <li><a target="_blank" title="Colabore" href="https://github.com/frontux">Github</a></li>
-          
-        </ul>
-      </nav>
-    </div>
+    {% endfor %}
+  </div>
 
-
-    <div class="site-wrapper">
-
-      <header>
-        <div class="h-wrap">
-          <h1 class="title">
-            <a href="/" title="Back to Homepage">
-              <img src="/assets/img/frontux-orange.jpg" alt="Picture" title="FrontUx.">
-            </a>
-          </h1>
-          <a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
-        </div>
-      </header>
-
-      <main>
-        <div id="home">
-  <ul class="posts">
-    
-    <li itemscope itemtype="http://schema.org/BlogPosting">
-      <a href="/primeiro-meetup/" itemprop="url">
-        <div class="p-wrap">
-          <time datetime="2015-05-05T15:00:00+00:00"
-              itemprop="datePublished">
-            05 May 2015
-          </time>
-          <p itemprop="name headline">Meetup #1</p>
-        </div>
-      </a>
-    </li>
-    
-  </ul>
+  {% include pagination.html %}
 </div>
-
-
-
-      </main>
-
-      <footer>
-        <small>&copy; FrontUx</small>
-      </footer>
-
-    </div>
-    
-
-    <script src="/js/main.js"></script>
-    
-    
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-62674375-1', 'fronux.com');
-        ga('send', 'pageview');
-      </script>
-    
-
-  </body>
-</html>
